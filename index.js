@@ -4,8 +4,8 @@ const numbers = [
 
   for(let i = 0; i < numbers.length; i++){
     if(numbers[i] % 2 === 0){
-        console.log("Even number");
+        console.log(numbers[i] + " is Even number");
     }else {
-        console.log("Odd number");
+        console.log(numbers[i] + " is Odd number");
     }
   }
